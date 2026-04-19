@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+psycopg2-binary
+transformers
+vaderSentiment
+torch
+python-dotenv
+httpx

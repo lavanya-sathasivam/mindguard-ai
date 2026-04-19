@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: mindguard-api
+    env: docker
+    region: ohio
+    plan: starter # ML models require at least 512MB-1GB RAM, free tier may OOM
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: N8N_WEBHOOK_URL
+        sync: false

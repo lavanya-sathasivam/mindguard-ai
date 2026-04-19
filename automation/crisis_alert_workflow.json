@@ -1,0 +1,54 @@
+{
+    "name": "MindGuard Crisis Alert",
+    "nodes": [
+        {
+            "parameters": {
+                "httpMethod": "POST",
+                "path": "crisis-alert",
+                "options": {}
+            },
+            "id": "1",
+            "name": "Webhook",
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 1,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "channel": "mental-health-alerts",
+                "text": "=CRISIS ALERT: User {{ $json.body.user_id }} triggered a Severe Risk incident.\nMessage context: {{ $json.body.message }}\nPlease review immediately.",
+                "otherOptions": {}
+            },
+            "id": "2",
+            "name": "Slack Emergency Notice",
+            "type": "n8n-nodes-base.slack",
+            "typeVersion": 2,
+            "position": [
+                500,
+                300
+            ]
+        }
+    ],
+    "connections": {
+        "Webhook": {
+            "main": [
+                [
+                    {
+                        "node": "Slack Emergency Notice",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {},
+    "staticData": null,
+    "pinData": {},
+    "versionId": "uuid-v4-mock",
+    "triggerCount": 0,
+    "tags": []
+}

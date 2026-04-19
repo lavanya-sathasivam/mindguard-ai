@@ -1,0 +1,97 @@
+[
+    {
+        "emotion": "anxiety",
+        "strategies": [
+            {
+                "title": "4-7-8 Breathing",
+                "description": "Inhale for 4s, hold for 7s, exhale for 8s.",
+                "type": "exercise"
+            },
+            {
+                "title": "5-4-3-2-1 Grounding",
+                "description": "Name 5 things you see, 4 you feel, 3 you hear, etc.",
+                "type": "mindfulness"
+            },
+            {
+                "title": "Progressive Muscle Relaxation",
+                "description": "Tense and relax each muscle group.",
+                "type": "exercise"
+            }
+        ]
+    },
+    {
+        "emotion": "sadness",
+        "strategies": [
+            {
+                "title": "Expressive Journaling",
+                "description": "Write down your thoughts without filtering.",
+                "type": "activity"
+            },
+            {
+                "title": "Call a Friend",
+                "description": "Reach out to someone you trust for a quick chat.",
+                "type": "social"
+            },
+            {
+                "title": "Gentle Stetching",
+                "description": "Try a 10-minute beginner yoga routine.",
+                "type": "exercise"
+            }
+        ]
+    },
+    {
+        "emotion": "anger",
+        "strategies": [
+            {
+                "title": "Take a Time Out",
+                "description": "Step away from the situation for 15 minutes.",
+                "type": "mindfulness"
+            },
+            {
+                "title": "Vigorous Exercise",
+                "description": "Go for a brisk walk or run to burn off adrenaline.",
+                "type": "exercise"
+            },
+            {
+                "title": "Write it and Rip it",
+                "description": "Write down what made you angry, then tear up the paper.",
+                "type": "activity"
+            }
+        ]
+    },
+    {
+        "emotion": "fear",
+        "strategies": [
+            {
+                "title": "Fact Checking",
+                "description": "Write down the fear, then write down the logical facts against it.",
+                "type": "cognitive"
+            },
+            {
+                "title": "Safe Space Visualization",
+                "description": "Close your eyes and imagine a place where you feel completely safe.",
+                "type": "mindfulness"
+            }
+        ]
+    },
+    {
+        "emotion": "stress",
+        "strategies": [
+            {
+                "title": "Box Breathing",
+                "description": "Inhale 4s, hold 4s, exhale 4s, hold 4s.",
+                "type": "exercise"
+            },
+            {
+                "title": "Time Blocking",
+                "description": "Break down your overwhelming tasks into 15-minute chunks.",
+                "type": "activity"
+            },
+            {
+                "title": "Nature Walk",
+                "description": "Spend 20 minutes walking outside without your phone.",
+                "type": "activity"
+            }
+        ]
+    }
+]
